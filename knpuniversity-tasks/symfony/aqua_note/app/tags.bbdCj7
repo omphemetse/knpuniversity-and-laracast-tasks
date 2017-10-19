@@ -1,0 +1,8 @@
+AppCache	AppCache.php	/^class AppCache extends HttpCache$/;"	c
+AppKernel	AppKernel.php	/^class AppKernel extends Kernel$/;"	c
+registerBundles	AppKernel.php	/^    public function registerBundles()$/;"	f
+bundles	AppKernel.php	/^        $bundles = [$/;"	v
+getRootDir	AppKernel.php	/^    public function getRootDir()$/;"	f
+getCacheDir	AppKernel.php	/^    public function getCacheDir()$/;"	f
+getLogDir	AppKernel.php	/^    public function getLogDir()$/;"	f
+registerContainerConfiguration	AppKernel.php	/^    public function registerContainerConfiguration(LoaderInterface $loader)$/;"	f
