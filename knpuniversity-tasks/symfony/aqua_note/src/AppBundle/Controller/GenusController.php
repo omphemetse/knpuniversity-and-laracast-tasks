@@ -27,7 +27,7 @@ class GenusController extends Controller
 
         $html = $this->render('genus/show.html.twig',[
             'name' => $genusName,
-            'notes' => $notes,
+            'notes' => $notes
         ]);
 
         return new Response($html);
