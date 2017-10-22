@@ -4,7 +4,7 @@ class HappyMessageSender
 {
     private $emailLoader;
     
-    public function __construct($emailLoader)
+    public function __construct(EmailAddressLoader $emailLoader)
     {
         $this->emailLoader = $emailLoader;
     }
